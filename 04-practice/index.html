@@ -322,8 +322,64 @@
             </div>
         </form>
 
+        <h4>Form autosizing</h4>
+        <form>
+            <div class="form-row align-items-center">
+                <div class="col-auto">
+                    <label class="sr-only" for="email1">Email</label>
+                    <input id="email1" class="form-control mr-2" type="text" placeholder="Jane Doe">
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="username1">Username</label>
+                    <div class="input-group mr-2">
+                        <div class="input-group-prepend"><div class="input-group-text">@</div></div>
+                        <input class="form-control" type="text" placeholder="Username">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="form-check">
+                        <input id="remember" class="form-check-input" type="checkbox">
+                        <label class="form-check-label" for="remember">Remember me</label>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary" type="button">Submit</button>
+                </div>
+            </div>
+        </form>
 
-
+        <h4>Form input group</h4>
+        <form>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                </div>
+                <input class="form-control" type="text" placeholder="Username">
+            </div>
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Recipient's username">
+                <div class="input-group-append">
+                    <div class="input-group-text">@example.com</div>
+                </div>
+            </div>
+            <label for="vanityUrl">Your vanit URL</label>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">https://example.com/users</div>
+                </div>
+                <input id="vanityUrl" class="form-control" type="text">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend"><div class="input-group-text">$</div></div>
+                <input class="form-control" type="text">
+                <div class="input-group-append"><div class="input-group-text">.00</div></div>
+            </div>
+        </form>
+        
+        <br>
+        
+        <h4>Tooltip</h4>
+        <button class="btn btn-primary" type="button" data-toggle="tooltip" data-placement="top" title="tooltip on top">Tooltip on top</button>
 
 
 
